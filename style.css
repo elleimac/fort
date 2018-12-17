@@ -87,7 +87,11 @@ body, html {
   font-size: 2em;
 }
 
-@media only screen and (max-width: 768px) {
+.card-header, .card-body {
+  background-color: black;
+}
+
+@media only screen and (max-width: 1200px) {
    .card-title {
     font-size: 6em;
     text-align: center;
@@ -101,10 +105,6 @@ body, html {
    .navbar {
     display: none;
   }
-}
-
-.card-header, .card-body {
-  background-color: black;
 }
 
 @media screen and (max-width: 600px) {
